@@ -1,9 +1,9 @@
 package Bread;
 
-public class Sourdough extends Bread{
+public class Baguette extends Bread{
     double oliveOil;
     String breadName;
-    public Sourdough(double flour, double water, double salt, double yeast, double oliveOil, String breadName) {
+    public Baguette(double flour, double water, double salt, double yeast, double oliveOil, String breadName) {
         super(flour, water, salt, yeast);
         this.oliveOil = oliveOil;
         this.breadName = breadName;
@@ -28,5 +28,4 @@ public class Sourdough extends Bread{
     public String toString(){
         return "Ingredients of " + breadName + " are: " + "\n" + getIngredients();
     }
-
 }
